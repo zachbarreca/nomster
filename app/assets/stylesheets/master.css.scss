@@ -1,6 +1,8 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
+
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -27,4 +29,21 @@ body {
   background:url('/assets/cartographer.png');
   border-radius: 0;
   box-shadow: 0px 1px 3px #2a2a2a;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #E3E85A;
+  font-family: 'chunkfiveroman', sans-serif;
+  font-size:26px;
+}
+
+@font-face {
+    font-family: 'chunkfiveroman';
+    src: url('/assets/chunkfive-webfont.eot');
+    src: url('/assets/chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/chunkfive-webfont.woff') format('woff'),
+         url('/assets/chunkfive-webfont.ttf') format('truetype'),
+         url('/assets/chunkfive-webfont.svg#chunkfiveroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
