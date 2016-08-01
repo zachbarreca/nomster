@@ -53,4 +53,8 @@ root 'places#index'
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+  resources :places
+
+  
 end
