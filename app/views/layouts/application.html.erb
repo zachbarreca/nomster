@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Nomster</title>
+  <%= link_to 'Nomster', '#', class: 'navbar-brand' %>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -24,6 +25,12 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="#">Link</a></li>
+        <li>
+      <%= link_to new_place_path do %>
+    <i class="glyphicon glyphicon-plus-sign"></i>
+    New Place
+  <% end %>
+    </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Link</a></li>
