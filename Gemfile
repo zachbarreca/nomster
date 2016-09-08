@@ -5,7 +5,9 @@ gem 'sass-rails'
 gem 'will_paginate', '~> 3.1'
 gem 'simple_form'
 gem 'devise', '>= 3.2.4'
-
+gem "figaro", ">= 1.0.0"
+gem "geocoder", "1.3.4"
+gem 'turbolinks'
 
 gem 'rails_12factor', group: :production
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -44,4 +46,3 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
